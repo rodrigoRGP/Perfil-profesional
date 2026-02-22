@@ -60,6 +60,8 @@ Mi enfoque se centra en transformar datos crudos en valor para el negocio median
 ## 🛠️ Sobre este Repositorio
 Este repositorio contiene mi perfil profesional interactivo escrito en Python. Sirve como demostración de buenas prácticas de código (Type Hinting, Docstrings y modularización).
 
+---
+
 **¿Cómo ejecutar el reporte localmente?**
 Clona el repositorio y ejecuta el script en tu terminal:
 
