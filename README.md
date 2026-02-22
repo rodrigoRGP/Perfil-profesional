@@ -11,6 +11,7 @@ Mi enfoque se centra en transformar datos crudos en valor para el negocio median
 - **LinkedIn**: [linkedin.com/in/rodrigo-garcia-perez-](https://www.linkedin.com/in/rodrigo-garcia-perez-)
 - **Email**: rodrigo-gp839@outlook.com
 - **Ubicación**: Chimalhuacán, Estado de México
+- **Teléfono**: +525578218631
 
 ---
 
