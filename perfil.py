@@ -1,14 +1,10 @@
 def generar_perfil_profesional() -> None:
-    """
-    Genera e imprime el perfil profesional actualizado a Julio 2026.
-    Muestra datos de contacto, experiencia, formación y stack tecnológico detallado.
-    """
     # --- DATOS PERSONALES ---
     nombre: str = "Rodrigo García Pérez"
     rol_principal: str = "Data Engineer Cloud"
     
     contacto: dict = {
-        "Email": "Rodrigo-gp95@hotmail.com",
+        "Email": "rodrigo-gp839@outlook.com",
         "Teléfono": "+525578218631",
         "LinkedIn": "linkedin.com/in/rodrigo-garcia-perez-",
         "Ubicación": "Chimalhuacán, Estado de México"
@@ -33,7 +29,7 @@ def generar_perfil_profesional() -> None:
         "Ingeniería en Sistemas Computacionales | UNITEC (Sep 2021 - Dic 2025)"
     ]
 
-    # --- HABILIDADES TÉCNICAS DETALLADAS (JULIO 2026) ---
+    # --- HABILIDADES TÉCNICAS ---
     habilidades: dict = {
         "⚙️ LENGUAJES Y BASES DE DATOS": [
             "SQL Avanzado: Window Functions, CTEs y optimización de consultas.",

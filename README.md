@@ -1,5 +1,5 @@
 # 👨‍💻 Rodrigo García Pérez
-**Data Engineer & IT Project Manager**
+**CLoud Data Engineer**
 
 ¡Hola! Soy Rodrigo, Ingeniero en Sistemas. Fusiono la **Ingeniería de Datos** con la **Gestión de Proyectos (PMBOK)** para diseñar, construir y mantener infraestructuras de datos escalables y eficientes. 
 
@@ -9,7 +9,7 @@ Mi enfoque se centra en transformar datos crudos en valor para el negocio median
 
 ## 📫 Contacto
 - **LinkedIn**: [linkedin.com/in/rodrigo-garcia-perez-](https://www.linkedin.com/in/rodrigo-garcia-perez-)
-- **Email**: Rodrigo-gp95@hotmail.com
+- **Email**: rodrigo-gp839@outlook.com
 - **Ubicación**: Chimalhuacán, Estado de México
 
 ---
