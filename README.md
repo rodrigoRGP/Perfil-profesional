@@ -7,6 +7,13 @@ Mi enfoque se centra en transformar datos crudos en valor para el negocio median
 
 ---
 
+## 📫 Contacto
+- **LinkedIn**: [linkedin.com/in/rodrigo-garcia-perez-](https://www.linkedin.com/in/rodrigo-garcia-perez-)
+- **Email**: Rodrigo-gp839@outlook.com
+- **Ubicación**: Chimalhuacán, Estado de México
+
+---
+
 ## 🚀 Tech Stack y Competencias
 
 ### ⚙️ Lenguajes y Bases de Datos
@@ -27,13 +34,6 @@ Mi enfoque se centra en transformar datos crudos en valor para el negocio median
 ### 📊 Gestión y Arquitectura
 - **Frameworks**: Metodología PMBOK.
 - **Habilidades Core**: Documentación Técnica, Dashboards Ejecutivos, Reducción de tiempos de respuesta.
-
----
-
-## 📫 Contacto
-- **LinkedIn**: [linkedin.com/in/rodrigo-garcia-perez-](https://www.linkedin.com/in/rodrigo-garcia-perez-)
-- **Email**: Rodrigo-gp95@hotmail.com
-- **Ubicación**: Chimalhuacán, Estado de México
 
 ---
 
