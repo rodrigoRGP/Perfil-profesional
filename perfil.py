@@ -1,7 +1,7 @@
 def generar_perfil_profesional() -> None:
     # --- DATOS PERSONALES ---
     nombre: str = "Rodrigo García Pérez"
-    rol_principal: str = "Data Engineer Cloud"
+    rol_principal: str = "Cloud Data Engineer"
     
     contacto: dict = {
         "Email": "rodrigo-gp839@outlook.com",
@@ -57,10 +57,10 @@ def generar_perfil_profesional() -> None:
     print(f"👨‍💻 {nombre} | {rol_principal}")
     print("="*70)
     
-    print("\n📍 CONTACTO:")
+    print("\n CONTACTO:")
     print(f"   ✉️ {contacto['Email']} | 📞 {contacto['Teléfono']}")
     
-    print("\n💼 EXPERIENCIA DESTACADA:")
+    print("\n💼 EXPERIENCIA:")
     for exp in experiencia:
         print(f"   > {exp['rol']} en {exp['empresa']} ({exp['periodo']})")
         for logro in exp['logros']:
@@ -70,7 +70,7 @@ def generar_perfil_profesional() -> None:
     for grado in formacion:
         print(f"   > {grado}")
     
-    print("\n🚀 TECH STACK DETALLADO (JULIO 2026):")
+    print("\n TECH STACK DETALLADO (JULIO 2026):")
     for categoria, herramientas in habilidades.items():
         print(f"\n  {categoria}:")
         for herramienta in herramientas:

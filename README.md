@@ -1,5 +1,5 @@
 # 👨‍💻 Rodrigo García Pérez
-**CLoud Data Engineer**
+**Cloud Data Engineer**
 
 ¡Hola! Soy Rodrigo, Ingeniero en Sistemas. Fusiono la **Ingeniería de Datos** con la **Gestión de Proyectos (PMBOK)** para diseñar, construir y mantener infraestructuras de datos escalables y eficientes. 
 
