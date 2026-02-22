@@ -1,11 +1,11 @@
 def generar_perfil_profesional() -> None:
     """
     Genera e imprime el perfil profesional actualizado a Julio 2026.
-    Muestra datos de contacto, roles y stack tecnológico clasificado.
+    Muestra datos de contacto, experiencia, formación y stack tecnológico detallado.
     """
     # --- DATOS PERSONALES ---
     nombre: str = "Rodrigo García Pérez"
-    rol_principal: str = "Data Engineer & IT Project Manager"
+    rol_principal: str = "Data Engineer Cloud"
     
     contacto: dict = {
         "Email": "Rodrigo-gp95@hotmail.com",
@@ -14,48 +14,73 @@ def generar_perfil_profesional() -> None:
         "Ubicación": "Chimalhuacán, Estado de México"
     }
 
-    # --- HABILIDADES TÉCNICAS ---
+    # --- EXPERIENCIA Y FORMACIÓN ---
+    experiencia: list = [
+        {
+            "rol": "Becario TI / DBA",
+            "empresa": "Lockton México",
+            "periodo": "Ene 2025 - Jun 2026",
+            "logros": [
+                "Realización y administración de bases de datos SQL.",
+                "Automatización de consultas (40% reducción de tiempo).",
+                "Integración de >10 fuentes de datos para inteligencia de negocios."
+            ]
+        }
+    ]
+
+    formacion: list = [
+        "Maestría en Dirección de Proyectos | UNITEC (Ene 2026 - Abr 2027)",
+        "Ingeniería en Sistemas Computacionales | UNITEC (Sep 2021 - Dic 2025)"
+    ]
+
+    # --- HABILIDADES TÉCNICAS DETALLADAS (JULIO 2026) ---
     habilidades: dict = {
-        "⚙️ Lenguajes y Bases de Datos": [
-            "SQL Avanzado (Window Functions, CTEs)", 
-            "Python (requests, pandas, boto3)", 
-            "PostgreSQL"
+        "⚙️ LENGUAJES Y BASES DE DATOS": [
+            "SQL Avanzado: Window Functions, CTEs y optimización de consultas.",
+            "Python: Extracción de APIs (requests), análisis (pandas) y cloud (boto3).",
+            "Bases de Datos: Administración y arquitectura en PostgreSQL y SQL Server."
         ],
-        "☁️ Cloud & DevOps (AWS)": [
-            "AWS (IAM, S3, EC2, RDS, Lambda, API Gateway)", 
-            "Docker", 
-            "Terraform (IaC)", 
-            "CI/CD con GitHub Actions"
+        "☁️ CLOUD & DEVOPS": [
+            "AWS: Diseño de arquitecturas con S3, EC2, RDS, Lambda y IAM.",
+            "IaC & Contenedores: Despliegue con Terraform y empaquetado con Docker.",
+            "CI/CD: Automatización de pipelines con GitHub Actions."
         ],
-        "🏗️ Modern Data Stack": [
-            "Apache Airflow (Orquestación)", 
-            "dbt (Transformación)", 
-            "Amazon Redshift (Data Warehousing)"
+        "🏗️ MODERN DATA STACK": [
+            "Orquestación: Automatización de flujos de datos con Apache Airflow.",
+            "Transformación: Modelado dimensional en el DWH con dbt.",
+            "Data Warehousing: Almacenamiento analítico en Amazon Redshift."
         ],
-        "📊 Gestión y Arquitectura": [
-            "Metodología PMBOK", 
-            "Modelado y optimización de datos", 
-            "Documentación técnica",
-            "Dashboards ejecutivos"
+        "📊 GESTIÓN Y LIDERAZGO": [
+            "Metodología PMBOK: Gestión de alcance, tiempo y riesgos del proyecto.",
+            "Traducción de Negocio: Dashboards ejecutivos y documentación técnica."
         ]
     }
 
     # --- GENERACIÓN DEL REPORTE EN CONSOLA ---
-    print("\n" + "="*50)
+    print("\n" + "="*70)
     print(f"👨‍💻 {nombre} | {rol_principal}")
-    print("="*50)
+    print("="*70)
     
-    print("\n📍 Información de Contacto:")
+    print("\n📍 CONTACTO:")
     print(f"   ✉️ {contacto['Email']} | 📞 {contacto['Teléfono']}")
-    print(f"   🌐 {contacto['LinkedIn']} | 🏠 {contacto['Ubicación']}")
     
-    print("\n🚀 Stack Tecnológico y Competencias:")
+    print("\n💼 EXPERIENCIA DESTACADA:")
+    for exp in experiencia:
+        print(f"   > {exp['rol']} en {exp['empresa']} ({exp['periodo']})")
+        for logro in exp['logros']:
+            print(f"     - {logro}")
+
+    print("\n🎓 FORMACIÓN ACADÉMICA:")
+    for grado in formacion:
+        print(f"   > {grado}")
+    
+    print("\n🚀 TECH STACK DETALLADO (JULIO 2026):")
     for categoria, herramientas in habilidades.items():
         print(f"\n  {categoria}:")
         for herramienta in herramientas:
             print(f"    ✔ {herramienta}")
             
-    print("\n" + "="*50 + "\n")
+    print("\n" + "="*70 + "\n")
 
 # --- PUNTO DE ENTRADA DEL SCRIPT ---
 if __name__ == "__main__":
