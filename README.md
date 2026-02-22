@@ -67,7 +67,7 @@ Este repositorio contiene mi perfil profesional interactivo escrito en Python. S
 Clona el repositorio y ejecuta el script en tu terminal:
 
 ```bash
-git clone [https://github.com/rodrigoRGP/perfil-profesional.git](https://github.com/rodrigoRGP/perfil-profesional.git)
+git clone https://github.com/rodrigoRGP/perfil-profesional.git https://github.com/rodrigoRGP/perfil-profesional.git
 cd perfil-profesional
 python3 perfil.py
 ```
