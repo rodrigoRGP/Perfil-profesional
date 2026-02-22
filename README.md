@@ -35,7 +35,7 @@ Mi enfoque se centra en transformar datos crudos en valor para el negocio median
 
 ---
 
-## 🚀 Tech Stack y Competencias Detalladas
+## Tech Stack y Competencias Detalladas
 
 ### ⚙️ Lenguajes y Bases de Datos
 - **SQL Avanzado**: Creación de Window Functions y CTEs para análisis complejo, optimización de consultas y modelado para Data Warehouses.

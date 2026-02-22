@@ -1,16 +1,16 @@
 def generar_perfil_profesional() -> None:
-    # --- DATOS PERSONALES ---
+    # --- Datos personales ---
     nombre: str = "Rodrigo García Pérez"
     rol_principal: str = "Cloud Data Engineer"
     
     contacto: dict = {
-        "Email": "rodrigo-gp839@outlook.com",
         "Teléfono": "+525578218631",
+        "Email": "rodrigo-gp839@outlook.com",
         "LinkedIn": "linkedin.com/in/rodrigo-garcia-perez-",
         "Ubicación": "Chimalhuacán, Estado de México"
     }
 
-    # --- EXPERIENCIA Y FORMACIÓN ---
+    # --- Experiencia ---
     experiencia: list = [
         {
             "rol": "Becario TI / DBA",
@@ -24,12 +24,13 @@ def generar_perfil_profesional() -> None:
         }
     ]
 
+    # --- Formación ---
     formacion: list = [
         "Maestría en Dirección de Proyectos | UNITEC (Ene 2026 - Abr 2027)",
         "Ingeniería en Sistemas Computacionales | UNITEC (Sep 2021 - Dic 2025)"
     ]
 
-    # --- HABILIDADES TÉCNICAS ---
+    # --- Habilidades técnicas ---
     habilidades: dict = {
         "⚙️ LENGUAJES Y BASES DE DATOS": [
             "SQL Avanzado: Window Functions, CTEs y optimización de consultas.",
@@ -52,7 +53,7 @@ def generar_perfil_profesional() -> None:
         ]
     }
 
-    # --- GENERACIÓN DEL REPORTE EN CONSOLA ---
+    # --- Generación de reporte en consola ---
     print("\n" + "="*70)
     print(f"👨‍💻 {nombre} | {rol_principal}")
     print("="*70)
@@ -78,6 +79,6 @@ def generar_perfil_profesional() -> None:
             
     print("\n" + "="*70 + "\n")
 
-# --- PUNTO DE ENTRADA DEL SCRIPT ---
+# --- Punto de entrada del script ---
 if __name__ == "__main__":
     generar_perfil_profesional()
